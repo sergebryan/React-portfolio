@@ -1,0 +1,367 @@
+
+#ProjectOuterSection{
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+}
+
+#ProjectNameSection{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 40px;
+    background-image: url('../data/images/back.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#ProjectLeftSection{
+    width:49%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+#ProjectLeftNameSection{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top:250px;
+    left:200px;
+}
+#ProjectRighttSection{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+#UserName{
+    font-size: 38px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+}
+#Post{
+    font-size: 22px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+}
+#HireButton{
+    height: 40px;
+    width: 150px;
+    background-color: #1ab394;
+    color:  white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+#ExploreButton{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid #1ab394;
+    color: #1ab394;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 50px;
+    /* margin: 50px; */
+}
+
+#ProjectAboutSection{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+#HeadingAboutSection{
+    left:0;
+    right:0;
+    position: absolute;
+    margin: auto;
+    width:200px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: 500;
+}
+#TextAboutSection{
+    left:0;
+    right:0;
+    position: absolute;
+    margin: auto;
+    width:600px;
+    height: 170px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 100px;
+    text-align: justify;
+}
+#TextButtonAboutSection{
+    left:0;
+    right:0;
+    position: absolute;
+    margin: auto;
+    width: 200px;
+    background-color: #1ab394;
+    color:  white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+#ProjectSkillsPageSection{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+#ProjectSkillsInner{
+    width: 80%;
+    height: 350px;
+    left:0;
+    right:0;
+    margin:auto;
+}
+#ProjectSkillsLeft{
+    width: 49%;
+    height: 250px;
+    float: left;
+    padding-left: 20px;
+}
+#ProjectSkillsRight{
+    width: 49%;
+    height: 250px;
+    float: right;
+    padding-left: 20px;
+}
+#ProjectSkillsInnerHeading{
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#ProjectSkillsName{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#RecentWorksSection{
+    height: 700px;
+    width: 100%;
+}
+#RecentWorksInnerSection{
+    height: 560px;
+    width: 70%;
+    left:0;
+    right:0;
+    margin:auto;
+}
+#RecentWorksHeading{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#SingleWork{
+    height: 40%;
+    width: 30%;
+    display: inline-block;
+    margin:1.5%;
+    position: relative;
+}
+#squareImg{
+    height: 100%;
+    width: 100%;
+}
+#ContactUsSection{
+    height: 500px;
+    width: 100%;
+}
+#ContactUsHeading{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#ContactUsInnerSection{
+    height: 450px;
+    width: 970px;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.FormLabel{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left:10px;
+}
+#ModalSubmitButtonStyle{
+    width: 150px;
+    height:40px;
+    background-color: #1ab394;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#SingleWorkCover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+    position: absolute;
+    line-height: 200px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+
+    #ProjectLeftNameSection{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top:100px;
+        left:60px;
+    }
+
+    #HireButton{
+        height: 40px;
+        width: 150px;
+        background-color: #1ab394;
+        color:  white;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        display: inline-block;
+        border-radius: 5px;
+        font-weight: 500;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    #ExploreButton{
+        height: 40px;
+        width: 150px;
+        background-color: white;
+        border: 2px solid #1ab394;
+        color: #1ab394;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        display: inline-block;
+        border-radius: 5px;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-left: 50px;
+        /* margin: 50px; */
+    }
+    #TextAboutSection{
+        left:0;
+        right:0;
+        position: absolute;
+        margin: auto;
+        width:300px;
+        height: 370px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 100px;
+        text-align: justify;
+    }
+    #ProjectAboutSection{
+        height: 600px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    #HeadingAboutSection{
+        left:0;
+        right:0;
+        position: absolute;
+        margin: auto;
+        width:150px;
+        height: 70px;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    #ProjectSkillsPageSection{
+        height: 650px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    #ProjectSkillsInner{
+        width: 95%;
+        height: 650px;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    #ProjectSkillsLeft{
+        width: 95%;
+        height: 250px;
+        float: left;
+        padding-left: 10px;
+    }
+    #ProjectSkillsRight{
+        width: 95%;
+        height: 250px;
+        float: left;
+        padding-left: 10px;
+    }
+
+    #RecentWorksInnerSection{
+        height: 1550px;
+        width: 80%;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    #SingleWork{
+        height: 250px;
+        width: 100%;
+        display: inline-block;
+        margin:1%;
+    }
+    #RecentWorksSection{
+        height: 1700px;
+        width: 100%;
+    }
+    #ContactUsInnerSection{
+        height: 450px;
+        width: 90%;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    #ContactUsHeading{
+        width: 100%;
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #ModalSubmitButtonStyle{
+        width: 150px;
+        height:40px;
+        background-color: #1ab394;
+        color: white;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 70px;
+    }
+}

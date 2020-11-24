@@ -1,0 +1,77 @@
+*{
+    scroll-behavior: smooth;
+}
+#HeaderOuterSection{
+    height: 60px;
+    width: 100%;
+    background-color: #1ab394;
+}
+#LeftOption{
+    height: 100%;
+    width: 150px;
+    display: inline-block;
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+#RightOption{
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+    float: right;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+}
+#BurgerOption{
+    display: none;
+}
+#SideNavigationStyle{
+    height: calc( 100vh - 60px);
+    width: 100%;
+    top:60px;
+    position: fixed;
+    left:-100%;
+    background-color: #1ab394;
+    z-index: 99;
+    padding-top: 60px;
+}
+.show{
+    left: 0 !important;
+}
+
+.hide{
+    left: -100%;
+}
+#SideNavigationOption{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+
+    #BurgerOption{
+        height: 100%;
+        width: fit-content;
+        display: inline-block;
+        float: right;
+        line-height: 60px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    #RightOption{
+        height: 100%;
+        width: 100px;
+        display: none;
+        float: right;
+        line-height: 60px;
+        text-align: center;
+    }
+}
